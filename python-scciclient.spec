@@ -110,3 +110,4 @@ Python ServerView Common Command Interface (SCCI) Client Library
 %changelog
 * Wed Apr 19 2017 Koki Sanagi <sanagi.koki@jp.fujitsu.com> - 0.4.0-1
 - Initial package
+
