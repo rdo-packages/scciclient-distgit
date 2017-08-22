@@ -32,10 +32,11 @@ BuildRequires: python-mock
 BuildRequires: python-oslo-serialization
 BuildRequires: git
 
-Requires: python-pbr >= 0.10
-Requires: python-babel >= 1.3
-Requires: python-requests >= 2.5.0
+Requires: python-pbr >= 2.0.0
+Requires: python-babel >= 2.3.4
+Requires: python-requests >= 2.10.0
 Requires: python-six >= 1.9
+Requires: python-oslo-utils >= 3.20.0
 Requires: python-oslo-serialization >= 1.10.0
 
 %description -n python2-%{src_name}
@@ -59,10 +60,11 @@ BuildRequires: python3-mock
 BuildRequires: python3-oslo-serialization
 BuildRequires: git
 
-Requires: python3-pbr >= 0.10
-Requires: python3-babel >= 1.3
-Requires: python3-requests >= 2.5.0
+Requires: python3-pbr >= 2.0.0
+Requires: python3-babel >= 2.3.4
+Requires: python3-requests >= 2.10.0
 Requires: python3-six >= 1.9
+Requires: python-oslo-utils >= 3.20.0
 Requires: python3-oslo-serialization >= 1.10.0
 
 %description -n python3-%{src_name}
