@@ -4,8 +4,8 @@
 %global sum Python ServerView Common Command Interface (SCCI) Client Library
 
 Name:        %{pkg_name}
-Version:     XXX
-Release:     XXX
+Version:     0.5.0
+Release:     1%{?dist}
 Summary:     %{sum}
 License:     ASL 2.0
 URL:         https://pypi.python.org/pypi/%{pkg_name}
@@ -110,6 +110,9 @@ Python ServerView Common Command Interface (SCCI) Client Library
 %endif
 
 %changelog
+* Thu Aug 24 2017 Alfredo Moralejo <amoralej@redhat.com> 0.5.0-1
+- Update to 0.5.0
+
 * Wed Apr 19 2017 Koki Sanagi <sanagi.koki@jp.fujitsu.com> - 0.4.0-1
 - Initial package
 
