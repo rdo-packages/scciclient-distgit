@@ -3,6 +3,9 @@
 %global pkg_name python-scciclient
 %global sum Python ServerView Common Command Interface (SCCI) Client Library
 
+%global common_desc \
+Python ServerView Common Command Interface (SCCI) Client Library
+
 Name:        %{pkg_name}
 Version:     XXX
 Release:     XXX
@@ -13,7 +16,7 @@ Source0:     https://tarballs.openstack.org/%{pkg_name}/%{pkg_name}-%{upstream_v
 BuildArch:   noarch
 
 %description
-Python ServerView Common Command Interface (SCCI) Client Library
+%{common_desc}
 
 
 %package -n python2-%{src_name}
@@ -40,7 +43,7 @@ Requires: python-oslo-utils >= 3.20.0
 Requires: python-oslo-serialization >= 1.10.0
 
 %description -n python2-%{src_name}
-Python ServerView Common Command Interface (SCCI) Client Library
+%{common_desc}
 
 
 %if 0%{?with_python3}
@@ -68,7 +71,7 @@ Requires: python-oslo-utils >= 3.20.0
 Requires: python3-oslo-serialization >= 1.10.0
 
 %description -n python3-%{src_name}
-Python ServerView Common Command Interface (SCCI) Client Library
+%{common_desc}
 %endif
 
 
