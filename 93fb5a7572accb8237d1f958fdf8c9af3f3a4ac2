@@ -16,6 +16,24 @@
       "revId": "93fb5a7572accb8237d1f958fdf8c9af3f3a4ac2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa81d914_df038e71",
+        "filename": "python-scciclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2017-10-24T08:21:21Z",
+      "side": 1,
+      "message": "Just so we do not forget it, could you add a comment referencing https://bugs.launchpad.net/pyghmi/+bug/1578613 (the upstream bug about python3 support)?\n\nThanks!",
+      "parentUuid": "fa81d914_7f04627e",
+      "revId": "93fb5a7572accb8237d1f958fdf8c9af3f3a4ac2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
