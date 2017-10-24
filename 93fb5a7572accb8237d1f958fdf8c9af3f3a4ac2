@@ -34,6 +34,24 @@
       "revId": "93fb5a7572accb8237d1f958fdf8c9af3f3a4ac2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa81d914_5f46bec0",
+        "filename": "python-scciclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-10-24T08:52:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa81d914_df038e71",
+      "revId": "93fb5a7572accb8237d1f958fdf8c9af3f3a4ac2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
