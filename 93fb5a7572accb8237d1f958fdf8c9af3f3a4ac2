@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa81d914_7f04627e",
+        "filename": "python-scciclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2017-10-24T07:35:56Z",
+      "side": 1,
+      "message": "i couldn\u0027t find python3 variant for pyghmi so not added here",
+      "revId": "93fb5a7572accb8237d1f958fdf8c9af3f3a4ac2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
