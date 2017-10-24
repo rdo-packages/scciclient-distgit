@@ -32,6 +32,8 @@ BuildRequires: python-requests-mock
 BuildRequires: python-testscenarios
 BuildRequires: python-testrepository
 BuildRequires: python-mock
+BuildRequires: python-pyghmi
+BuildRequires: pysnmp
 BuildRequires: python-oslo-serialization
 BuildRequires: git
 
@@ -41,6 +43,8 @@ Requires: python-requests >= 2.10.0
 Requires: python-six >= 1.9
 Requires: python-oslo-utils >= 3.20.0
 Requires: python-oslo-serialization >= 1.10.0
+Requires: python-pyghmi
+Requires: pysnmp
 
 %description -n python2-%{src_name}
 %{common_desc}
@@ -60,6 +64,10 @@ BuildRequires: python3-requests-mock
 BuildRequires: python3-testscenarios
 BuildRequires: python3-testrepository
 BuildRequires: python3-mock
+BuildRequires: python3-pysnmp
+# FIXME(ykarel): python3-pyghmi doesn't exist yet as pyghmi is not compatible
+# with python 3: https://bugs.launchpad.net/pyghmi/+bug/1578613
+#BuildRequires: python3-pyghmi
 BuildRequires: python3-oslo-serialization
 BuildRequires: git
 
@@ -69,6 +77,10 @@ Requires: python3-requests >= 2.10.0
 Requires: python3-six >= 1.9
 Requires: python-oslo-utils >= 3.20.0
 Requires: python3-oslo-serialization >= 1.10.0
+Requires: python3-pysnmp
+# FIXME(ykarel): python3-pyghmi doesn't exist yet as pyghmi is not compatible
+# with python 3: https://bugs.launchpad.net/pyghmi/+bug/1578613
+#Requires: python3-pyghmi
 
 %description -n python3-%{src_name}
 %{common_desc}
