@@ -116,3 +116,4 @@ Requires: python3-oslo-serialization >= 1.10.0
 * Wed Apr 19 2017 Koki Sanagi <sanagi.koki@jp.fujitsu.com> - 0.4.0-1
 - Initial package
 
+# REMOVEME: error caused by commit https://github.com/openstack/python-scciclient/commit/e02270d9652d664a546e262afc45245b7c7108d2
