@@ -24,27 +24,27 @@ Summary: %{sum}
 %{?python_provide:%python_provide python2-%{src_name}}
 
 BuildRequires: python2-devel
-BuildRequires: python-pbr
-BuildRequires: python-setuptools
-BuildRequires: python-oslo-utils
-BuildRequires: python-oslo-sphinx
+BuildRequires: python2-pbr
+BuildRequires: python2-setuptools
+BuildRequires: python2-oslo-utils
+BuildRequires: python2-oslo-sphinx
 BuildRequires: python-requests-mock
-BuildRequires: python-testscenarios
-BuildRequires: python-testrepository
-BuildRequires: python-mock
-BuildRequires: python-pyghmi
-BuildRequires: pysnmp
-BuildRequires: python-oslo-serialization
+BuildRequires: python2-testscenarios
+BuildRequires: python2-testrepository
+BuildRequires: python2-mock
+BuildRequires: python2-pyghmi
+BuildRequires: python2-pysnmp
+BuildRequires: python2-oslo-serialization
 BuildRequires: git
 
-Requires: python-pbr >= 2.0.0
-Requires: python-babel >= 2.3.4
-Requires: python-requests >= 2.10.0
-Requires: python-six >= 1.9
-Requires: python-oslo-utils >= 3.20.0
-Requires: python-oslo-serialization >= 1.10.0
-Requires: python-pyghmi
-Requires: pysnmp
+Requires: python2-pbr >= 2.0.0
+Requires: python2-babel >= 2.3.4
+Requires: python2-requests >= 2.14.2
+Requires: python2-six >= 1.10
+Requires: python2-oslo-utils >= 3.33.0
+Requires: python2-oslo-serialization >= 2.18.0
+Requires: python2-pyghmi
+Requires: python2-pysnmp
 
 %description -n python2-%{src_name}
 %{common_desc}
@@ -73,10 +73,10 @@ BuildRequires: git
 
 Requires: python3-pbr >= 2.0.0
 Requires: python3-babel >= 2.3.4
-Requires: python3-requests >= 2.10.0
-Requires: python3-six >= 1.9
-Requires: python-oslo-utils >= 3.20.0
-Requires: python3-oslo-serialization >= 1.10.0
+Requires: python3-requests >= 2.14.2
+Requires: python3-six >= 1.10
+Requires: python3-oslo-utils >= 3.33.0
+Requires: python3-oslo-serialization >= 2.18.0
 Requires: python3-pysnmp
 # FIXME(ykarel): python3-pyghmi doesn't exist yet as pyghmi is not compatible
 # with python 3: https://bugs.launchpad.net/pyghmi/+bug/1578613
