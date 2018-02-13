@@ -7,8 +7,8 @@
 Python ServerView Common Command Interface (SCCI) Client Library
 
 Name:        %{pkg_name}
-Version:     XXX
-Release:     XXX
+Version:     0.6.1
+Release:     1%{?dist}
 Summary:     %{sum}
 License:     ASL 2.0
 URL:         https://pypi.python.org/pypi/%{pkg_name}
@@ -125,6 +125,9 @@ Requires: python3-pysnmp
 %endif
 
 %changelog
+* Tue Feb 13 2018 RDO <dev@lists.rdoproject.org> 0.6.1-1
+- Update to 0.6.1
+
 * Wed Apr 19 2017 Koki Sanagi <sanagi.koki@jp.fujitsu.com> - 0.4.0-1
 - Initial package
 
