@@ -30,7 +30,7 @@ BuildRequires: python2-oslo-utils
 BuildRequires: python2-oslo-sphinx
 BuildRequires: python-requests-mock
 BuildRequires: python2-testscenarios
-BuildRequires: python2-testrepository
+BuildRequires: python2-stestr
 BuildRequires: python2-mock
 BuildRequires: python2-pyghmi
 BuildRequires: python2-pysnmp
@@ -61,7 +61,7 @@ BuildRequires: python3-setuptools
 BuildRequires: python3-oslo-utils
 BuildRequires: python3-oslo-sphinx
 BuildRequires: python3-requests-mock
-BuildRequires: python3-testscenarios
+BuildRequires: python3-stestr
 BuildRequires: python3-testrepository
 BuildRequires: python3-mock
 BuildRequires: python3-pysnmp
@@ -104,9 +104,9 @@ Requires: python3-pysnmp
 
 %check
 %if 0%{?with_python3}
-%{__python3} setup.py test
+stestr-3 run
 %endif
-%{__python2} setup.py test
+stestr run
 
 %files -n python2-%{src_name}
 %license LICENSE
@@ -127,4 +127,3 @@ Requires: python3-pysnmp
 %changelog
 * Wed Apr 19 2017 Koki Sanagi <sanagi.koki@jp.fujitsu.com> - 0.4.0-1
 - Initial package
-
