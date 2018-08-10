@@ -128,3 +128,4 @@ Requires: python3-pysnmp
 * Wed Apr 19 2017 Koki Sanagi <sanagi.koki@jp.fujitsu.com> - 0.4.0-1
 - Initial package
 
+# REMOVEME: error caused by commit https://github.com/openstack/python-scciclient/commit/a38fd836e84fed6b83157a244cf71bb0b337e66e
