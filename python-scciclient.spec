@@ -3,6 +3,10 @@
 %global pkg_name python-scciclient
 %global sum Python ServerView Common Command Interface (SCCI) Client Library
 
+%if 0%{?fedora} || 0%{?rhel} >= 8
+%global with_python3 1
+%endif
+
 %global common_desc \
 Python ServerView Common Command Interface (SCCI) Client Library
 
