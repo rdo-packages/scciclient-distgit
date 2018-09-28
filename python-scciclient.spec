@@ -3,6 +3,10 @@
 %global pkg_name python-scciclient
 %global sum Python ServerView Common Command Interface (SCCI) Client Library
 
+%if 0%{?fedora} || 0%{?rhel} >= 8
+%global with_python3 1
+%endif
+
 %global common_desc \
 Python ServerView Common Command Interface (SCCI) Client Library
 
@@ -65,9 +69,7 @@ BuildRequires: python3-stestr
 BuildRequires: python3-testrepository
 BuildRequires: python3-mock
 BuildRequires: python3-pysnmp
-# FIXME(ykarel): python3-pyghmi doesn't exist yet as pyghmi is not compatible
-# with python 3: https://bugs.launchpad.net/pyghmi/+bug/1578613
-#BuildRequires: python3-pyghmi
+BuildRequires: python3-pyghmi
 BuildRequires: python3-oslo-serialization
 BuildRequires: git
 
@@ -78,9 +80,7 @@ Requires: python3-six >= 1.10
 Requires: python3-oslo-utils >= 3.33.0
 Requires: python3-oslo-serialization >= 2.18.0
 Requires: python3-pysnmp
-# FIXME(ykarel): python3-pyghmi doesn't exist yet as pyghmi is not compatible
-# with python 3: https://bugs.launchpad.net/pyghmi/+bug/1578613
-#Requires: python3-pyghmi
+Requires: python3-pyghmi
 
 %description -n python3-%{src_name}
 %{common_desc}
