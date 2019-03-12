@@ -4,7 +4,7 @@
 %global sum Python ServerView Common Command Interface (SCCI) Client Library
 
 Name:        %{pkg_name}
-Version:     0.5.0
+Version:     0.8.0
 Release:     1%{?dist}
 Summary:     %{sum}
 License:     ASL 2.0
@@ -110,6 +110,9 @@ Python ServerView Common Command Interface (SCCI) Client Library
 %endif
 
 %changelog
+* Tue Mar 12 2019 RDO <dev@lists.rdoproject.org> 0.8.0-1
+- Update to 0.8.0
+
 * Thu Aug 24 2017 Alfredo Moralejo <amoralej@redhat.com> 0.5.0-1
 - Update to 0.5.0
 
