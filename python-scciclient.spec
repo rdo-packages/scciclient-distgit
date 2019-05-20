@@ -76,7 +76,7 @@ Requires: python%{pyver}-pysnmp
 %{pyver_install}
 
 %check
-stestr-%{pyver} run
+PYTHON=%{pyver_bin} stestr-%{pyver} run
 
 %files -n python%{pyver}-%{src_name}
 %license LICENSE
