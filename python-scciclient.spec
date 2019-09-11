@@ -34,8 +34,8 @@ BuildRequires: git
 
 Requires: python-pbr >= 2.0.0
 Requires: python-babel >= 2.3.4
-Requires: python-requests >= 2.10.0
-Requires: python-six >= 1.9
+Requires: python-requests >= 2.14.2
+Requires: python-six >= 1.9.0
 Requires: python-oslo-utils >= 3.20.0
 Requires: python-oslo-serialization >= 1.10.0
 
