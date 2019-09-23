@@ -18,8 +18,8 @@
 Python ServerView Common Command Interface (SCCI) Client Library
 
 Name:        %{pkg_name}
-Version:     XXX
-Release:     XXX
+Version:     0.8.1
+Release:     1%{?dist}
 Summary:     %{sum}
 License:     ASL 2.0
 URL:         https://pypi.python.org/pypi/%{pkg_name}
@@ -86,3 +86,6 @@ PYTHON=%{pyver_bin} stestr-%{pyver} run
 %{pyver_sitelib}/*.egg-info
 
 %changelog
+* Mon Sep 23 2019 RDO <dev@lists.rdoproject.org> 0.8.1-1
+- Update to 0.8.1
+
