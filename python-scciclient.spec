@@ -47,17 +47,12 @@ BuildRequires: python%{pyver}-pysnmp
 BuildRequires: python%{pyver}-oslo-serialization
 BuildRequires: git
 
-# Handle python2 exception
-%if %{pyver} == 2
-BuildRequires: python-requests-mock
-%else
 BuildRequires: python%{pyver}-requests-mock
-%endif
 
 Requires: python%{pyver}-pbr >= 2.0.0
 Requires: python%{pyver}-babel >= 2.3.4
 Requires: python%{pyver}-requests >= 2.14.2
-Requires: python%{pyver}-six >= 1.10
+Requires: python%{pyver}-six >= 1.10.0
 Requires: python%{pyver}-oslo-utils >= 3.33.0
 Requires: python%{pyver}-oslo-serialization >= 2.18.0
 Requires: python%{pyver}-pyghmi
