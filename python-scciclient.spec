@@ -47,7 +47,7 @@ BuildRequires: python3-mock
 BuildRequires: python3-pyghmi
 BuildRequires: python3-pysnmp
 BuildRequires: python3-oslo-serialization
-BuildRequires: git
+BuildRequires: git-core
 
 BuildRequires: python3-requests-mock
 
