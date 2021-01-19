@@ -57,7 +57,7 @@ Requires: python3-requests >= 2.14.2
 Requires: python3-six >= 1.10.0
 Requires: python3-oslo-utils >= 3.33.0
 Requires: python3-oslo-serialization >= 2.18.0
-Requires: python3-pyghmi
+Requires: python3-pyghmi >= 1.0.24
 Requires: python3-pysnmp
 
 %description -n python3-%{src_name}
