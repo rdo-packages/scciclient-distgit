@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "febfa882_0ec53191",
+        "filename": "python-scciclient.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-01-28T05:02:13Z",
+      "side": 1,
+      "message": "in upstream it says \u003e\u003d 1.0.22 https://opendev.org/x/python-scciclient/src/branch/master/requirements.txt#L6\n\nWould be good to update there too if 1.0.24 is minimum required.\n\nhttps://review.rdoproject.org/zuul/build/5e79648663b244a5b63af1fdcfd8531b/log/job-output.txt#235-236",
+      "revId": "384e545a52edaec9d6c10f13c3a725811be4b5a7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
