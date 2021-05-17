@@ -29,7 +29,6 @@ BuildArch:   noarch
 %description
 %{common_desc}
 
-
 %package -n python%{pyver}-%{src_name}
 Summary: %{sum}
 %{?python_provide:%python_provide python%{pyver}-%{src_name}}
