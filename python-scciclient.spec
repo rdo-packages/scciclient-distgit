@@ -34,7 +34,12 @@ BuildRequires: python3-mock
 BuildRequires: python3-pyghmi
 BuildRequires: python3-pysnmp
 BuildRequires: python3-oslo-serialization
+<<<<<<< HEAD   (905c14 ManageSF commit)
 BuildRequires: git
+=======
+BuildRequires: python3-defusedxml
+BuildRequires: git-core
+>>>>>>> CHANGE (b8e8a2 Add python-defusedxml requirement)
 
 BuildRequires: python3-requests-mock
 
@@ -44,8 +49,14 @@ Requires: python3-requests >= 2.14.2
 Requires: python3-six >= 1.10.0
 Requires: python3-oslo-utils >= 3.33.0
 Requires: python3-oslo-serialization >= 2.18.0
+<<<<<<< HEAD   (905c14 ManageSF commit)
 Requires: python3-pyghmi
 Requires: python3-pysnmp
+=======
+Requires: python3-pyghmi >= 1.0.24
+Requires: python3-pysnmp >= 4.2.3
+Requires: python3-defusedxml >= 0.7.0
+>>>>>>> CHANGE (b8e8a2 Add python-defusedxml requirement)
 
 %description -n python3-%{src_name}
 %{common_desc}
