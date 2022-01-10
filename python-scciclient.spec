@@ -47,6 +47,7 @@ BuildRequires: python3-mock
 BuildRequires: python3-pyghmi
 BuildRequires: python3-pysnmp
 BuildRequires: python3-oslo-serialization
+BuildRequires: python3-defusedxml
 BuildRequires: git-core
 
 BuildRequires: python3-requests-mock
@@ -59,6 +60,7 @@ Requires: python3-oslo-utils >= 3.33.0
 Requires: python3-oslo-serialization >= 2.18.0
 Requires: python3-pyghmi >= 1.0.24
 Requires: python3-pysnmp >= 4.2.3
+Requires: python3-defusedxml >= 0.7.0
 
 %description -n python3-%{src_name}
 %{common_desc}
