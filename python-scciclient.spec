@@ -70,3 +70,4 @@ PYTHON=%{__python3} stestr run
 %{python3_sitelib}/*.egg-info
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/python-scciclient/commit/8e527de430cc6dc2a743e39af478cb84f71a3af9
