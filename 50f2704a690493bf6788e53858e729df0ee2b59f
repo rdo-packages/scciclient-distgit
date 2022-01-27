@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee7ecba9_1c4f00f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-01-27T09:25:58Z",
+      "side": 1,
+      "message": "Patch upstream has not been backported to Ussuri yet [1]\n\n[1] https://review.opendev.org/q/Use+defusedxml+instead+of+standard+xml",
+      "revId": "50f2704a690493bf6788e53858e729df0ee2b59f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
