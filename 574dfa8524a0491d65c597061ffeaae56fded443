@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7c37437_43568765",
+        "filename": "python-scciclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-03-15T15:08:33Z",
+      "side": 1,
+      "message": "2",
+      "range": {
+        "startLine": 92,
+        "startChar": 54,
+        "endLine": 92,
+        "endChar": 57
+      },
+      "revId": "574dfa8524a0491d65c597061ffeaae56fded443",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f0e9531_13651688",
+        "filename": "python-scciclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-03-15T15:08:33Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 93,
+        "startChar": 17,
+        "endLine": 93,
+        "endChar": 20
+      },
+      "revId": "574dfa8524a0491d65c597061ffeaae56fded443",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
