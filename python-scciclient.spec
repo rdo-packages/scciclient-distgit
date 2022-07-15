@@ -47,6 +47,7 @@ BuildRequires: python3-mock
 BuildRequires: python3-pyghmi
 BuildRequires: python3-pysnmp
 BuildRequires: python3-oslo-serialization
+BuildRequires: python3-defusedxml
 BuildRequires: git-core
 
 BuildRequires: python3-requests-mock
@@ -89,4 +90,3 @@ PYTHON=%{__python3} stestr run
 %changelog
 * Tue Mar 16 2021 RDO <dev@lists.rdoproject.org> 0.9.0-1
 - Update to 0.9.0
-
