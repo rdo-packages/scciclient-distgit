@@ -90,3 +90,4 @@ PYTHON=%{__python3} stestr run
 * Tue Mar 16 2021 RDO <dev@lists.rdoproject.org> 0.9.0-1
 - Update to 0.9.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/python-scciclient/commit/a0679defe1384803749a4677b5364739036c8272
