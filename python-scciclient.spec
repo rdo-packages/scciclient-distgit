@@ -61,6 +61,7 @@ Requires: python%{pyver}-oslo-utils >= 3.33.0
 Requires: python%{pyver}-oslo-serialization >= 2.18.0
 Requires: python%{pyver}-pyghmi
 Requires: python%{pyver}-pysnmp
+Requires: python%{pyver}-defusedxml >= 0.7.0
 
 %description -n python%{pyver}-%{src_name}
 %{common_desc}
