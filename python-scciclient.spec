@@ -44,6 +44,7 @@ BuildRequires: python%{pyver}-mock
 BuildRequires: python%{pyver}-pyghmi
 BuildRequires: python%{pyver}-pysnmp
 BuildRequires: python%{pyver}-oslo-serialization
+BuildRequires: python%{pyver}-defusedxml
 BuildRequires: git
 
 # Handle python2 exception
