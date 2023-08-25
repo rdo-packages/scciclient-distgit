@@ -92,3 +92,4 @@ PYTHON=%{__python3} stestr run
 * Wed Sep 14 2022 RDO <dev@lists.rdoproject.org> 0.12.1-1
 - Update to 0.12.1
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/python-scciclient/commit/a0d98f9eaa43e199f708524a65fb9322ffd27282
