@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4173143_f60aa82b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-08-28T15:22:43Z",
+      "side": 1,
+      "message": "https://review.rdoproject.org/r/c/rdoinfo/+/49751 should clear it",
+      "revId": "5ca7299ebfbda8bde368d15d4085ec07331d0082",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
