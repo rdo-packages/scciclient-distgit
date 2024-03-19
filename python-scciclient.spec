@@ -12,7 +12,7 @@ Python ServerView Common Command Interface (SCCI) Client Library
 
 Name:        %{pkg_name}
 Version:     0.15.0
-Release:     1%{?dist}
+Release:     2%{?dist}
 Summary:     %{sum}
 License:     Apache-2.0
 URL:         https://pypi.python.org/pypi/%{pkg_name}
@@ -56,6 +56,10 @@ sed -i "s/^deps = -c{env:.*_CONSTRAINTS_FILE.*/deps =/" tox.ini
 sed -i /^minversion.*/d tox.ini
 sed -i /^requires.*virtualenv.*/d tox.ini
 
+# In RDO we are managing pyasn1 for pysnmp via dependency in pysnmp-lextudio. To avoid
+# conflicts between packages, let's remove pyasn1* from automatic deps.
+sed -i '/^pyasn1.* /d' requirements.txt
+
 # Exclude some bad-known BRs
 for pkg in %{excluded_brs}; do
   for reqfile in doc/requirements.txt test-requirements.txt; do
@@ -85,6 +89,9 @@ done
 %{python3_sitelib}/*.dist-info
 
 %changelog
+* Tue Mar 19 2024 Alfredo Moralejo <amoralej@redhat.com> 0.15.0-2
+- Ignore pyasn1 automatic dependency
+
 * Thu Mar 14 2024 RDO <dev@lists.rdoproject.org> 0.15.0-1
 - Update to 0.15.0
 
