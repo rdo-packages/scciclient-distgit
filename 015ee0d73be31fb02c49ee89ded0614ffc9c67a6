@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a529182f_9577d739",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 558
+      },
+      "writtenOn": "2024-03-19T09:20:06Z",
+      "side": 1,
+      "message": "this is agood workaround even with correct requirements entries",
+      "revId": "015ee0d73be31fb02c49ee89ded0614ffc9c67a6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
